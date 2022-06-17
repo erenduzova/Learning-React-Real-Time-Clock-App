@@ -5,15 +5,3 @@ import App from "./components/App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<App />);
-
-//Challenge:
-
-//2. Given that you can get code to be called every second
-//using the setInterval method.
-//Can you get the time in your <h1> to update every second?
-
-//e.g. uncomment the code below to see Hey printed every second.
-// function sayHi() {
-//   console.log("Hey");
-// }
-// setInterval(sayHi, 1000);
